@@ -1,0 +1,9 @@
+<h2>Click to get details  of employee</h2>
+<app-link-data *ngFor = "let data of employee; let i = index" [empdata]=data></app-link-data>
+
+<hr>
+
+ <div *ngFor = 'let d of data'>
+    {{d.empCode}}
+
+</div> 
